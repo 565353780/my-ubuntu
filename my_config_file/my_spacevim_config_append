@@ -1,0 +1,51 @@
+# ====C++====
+[options]
+# options for layers checkers
+enable_neomake = true
+enable_ale = false
+lint_on_the_fly = false
+
+# option for autocomplete
+autocomplete_method = "coc"
+
+# bootstrap configuration
+# bootstrap_before = "myspacevim#before"
+# bootstrap_after = "myspacevim#after"
+
+# Enable autocomplete layer
+[[layers]]
+name = 'autocomplete'
+auto-completion-return-key-behavior = "complete"
+auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+name = 'checkers'
+show_cursor_error = true
+# enable = false
+
+[[layers]]
+name = "lang#c"
+clang_executable = "clang"
+[layer.clang_std]
+c = "c11"
+cpp = "c++1z"
+objc = "c11"
+objcpp = "c++1z"
+
+[[layers]]
+name = "lsp"
+filetypes = [
+  "c",
+  "cpp"
+]
+[layers.override_cmd]
+c = ["clangd", "--limit-results=5"]
+cpp = ["clangd", "--limit-results=5"]
+
+[[layers]]
+name = "format"
+
+[[layers]]
+name = "chinese"
+# ====C++====
+

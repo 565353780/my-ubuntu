@@ -1,0 +1,27 @@
+sudo visudo
+# edit
+Defaults	!env_reset
+# add
+Defaults	env_keep+="http_proxy https_proxy"
+# 操作
+^O 保存为 DOS 格式
+^X 退出
+
+# For WSL openssh
+# 添加虚拟局域网及固定ip
+# run this 4 lines
+## in win
+wsl -d Ubuntu-20.04 -u root ip addr add 192.168.1.2/24 broadcast 192.168.1.255 dev eth0 label eth0:1
+netsh interface ip add address "vEthernet (WSL)" 192.168.1.1 255.255.255.0
+netsh interface portproxy add v4tov4 listenaddress=192.168.0.6 listenport=2222 connectaddress=192.168.1.2 connectport=22
+## in wsl
+sudo service ssh --full-restart
+
+# 添加端口映射
+netsh interface portproxy add v4tov4 listenaddress=192.168.0.6 listenport=2222 connectaddress=192.168.1.2 connectport=22
+## in wsl
+sudo service ssh --full-restart
+# 查看端口映射
+netsh interface portproxy show v4tov4
+# 删除端口映射
+netsh interface portproxy delete v4tov4 listenaddress=192.168.0.6 listenport=2222

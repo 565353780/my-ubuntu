@@ -1,0 +1,7 @@
+# proxy
+alias p8123='export http_proxy=http://127.0.0.1:8123&&export https_proxy=http://127.0.0.1:8123'
+alias up='unset http_proxy&&unset https_proxy'
+
+# sudo
+alias sudo='sudo env PATH=$PATH'
+

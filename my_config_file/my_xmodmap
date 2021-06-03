@@ -1,0 +1,37 @@
+! [` ~] -> [Esc]
+keycode 49 = Escape NoSymbol Escape NoSymbol
+
+! [Esc] -> [` ~]
+keycode 9 = grave asciitilde grave asciitilde
+
+! [Caps] -> [Ctrl]
+keycode 66 = Control_L NoSymbol Control_L NoSymbol
+
+! [Backspace] -> [\ |]
+!keycode 22 = backslash bar backslash bar
+
+! [\ |] -> [Backspace]
+!keycode 51 = BackSpace NoSymbol BackSpace NoSymbol
+
+! [Del] -> [` ~]
+!keycode 119 = grave asciitilde grave asciitilde
+
+! [F12] -> [Del F12]
+!keycode 96 = Delete F12 Delete F12
+
+! 更新修饰键
+clear shift
+clear lock
+clear control
+clear mod1
+clear mod2
+clear mod4
+clear mod5
+add shift = Shift_L Shift_R
+add lock = Caps_Lock
+add control = Control_L Control_R
+add mod1 = Alt_L Alt_R Meta_L
+add mod2 = Num_Lock
+add mod4 = Super_L Super_R Super_L Hyper_L
+add mod5 = ISO_Level3_Shift Mode_switch
+
