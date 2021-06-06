@@ -44,12 +44,7 @@ export EDITOR=/usr/bin/vi
 
 # Anaconda
 alias base='conda deactivate'
-alias py27='conda activate py27'
-alias py35='conda activate py35'
-alias py36='conda activate py36'
-alias py37='conda activate py37'
-alias py38='conda activate py38'
-alias py39='conda activate py39'
+alias ca='conda activate'
 base
 
 # CUDA
@@ -66,7 +61,6 @@ export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-$CUDA_VERSION
 # export LD_LIBRARY_PATH="$OpenCV_ROOT/build/installed/lib:$LD_LIBRARY_PATH"
 # export C_INCLUDE_PATH="$OpenCV_ROOT/build/installed/include":$C_INCLUDE_PATH
 # export CPLUS_INCLUDE_PATH="$OpenCV_ROOT/build/installed/include":$CPLUS_INCLUDE_PATH
-
 export C_INCLUDE_PATH="/usr/include/opencv4":$C_INCLUDE_PATH
 export CPLUS_INCLUDE_PATH="/usr/include/opencv4":$CPLUS_INCLUDE_PATH
 
