@@ -1,5 +1,6 @@
 source ~/.bashrc
 
-sudo apt install autojump locate fcitx htop net-tools -y
-brew install ranger lazygit
+sudo add-apt-repository ppa:lazygit-team/release
+
+sudo apt install autojump locate fcitx htop net-tools ranger lazygit -y
 
