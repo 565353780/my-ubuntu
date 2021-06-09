@@ -53,7 +53,8 @@ base
 export CUDA_VERSION=11.1
 export PATH=$PATH:/usr/local/cuda-$CUDA_VERSION/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-$CUDA_VERSION/lib64
-export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-$CUDA_VERSION
+#export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-$CUDA_VERSION
+export CUDA_HOME=/usr/local/cuda-$CUDA_VERSION
 
 # OpenCV
 # export OpenCV_ROOT="/home/chli/OpenCV/opencv-3.4.0"
@@ -99,16 +100,16 @@ export TRT_SOURCE=`pwd`
 export TRT_RELEASE=`pwd`/TensorRT-6.0.1.5
 
 #Homebrew
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-# export PATH="$HOME/.linuxbrew/bin:$PATH"
-# export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#export PATH="$HOME/.linuxbrew/bin:$PATH"
+#export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
 
 # powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # autojump
-# . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
+#. /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
 
 # autoupdate-oh-my-zsh-plugin
 export UPDATE_ZSH_DAYS=1
@@ -120,7 +121,7 @@ export DISPLAY=:0.0
 #export LIBGL_ALWAYS_SOFTWARE=1
 
 # python_path
-# export PYTHONPATH="/home/linuxbrew/.linuxbrew/lib/python3.9/site-packages/":$PYTHONPATH
+#export PYTHONPATH="/home/linuxbrew/.linuxbrew/lib/python3.9/site-packages/":$PYTHONPATH
 
 # sudo
 alias sudo='sudo env PATH=$PATH'
