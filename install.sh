@@ -1,3 +1,4 @@
+bash my_install_sh/install_homebrew.sh
 bash my_install_sh/install_zsh.sh
 bash my_install_sh/install_nvim.sh
 bash my_install_sh/install_thirdparty.sh
