@@ -11,4 +11,5 @@ test -r ~/.profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> 
 test -r ~/.zprofile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.zprofile
 
 brew install git autojump gcc
+brew install lazygit ranger
 
