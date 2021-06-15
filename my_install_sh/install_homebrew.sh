@@ -13,3 +13,5 @@ test -r ~/.zprofile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>
 brew install git autojump gcc
 brew install lazygit ranger
 
+brew unlink python3
+

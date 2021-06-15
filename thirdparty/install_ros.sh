@@ -5,7 +5,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt update
 sudo apt install ros-noetic-desktop-full -y
 sudo apt install python3-catkin-tools python3-rosdep python3-rosinstall -y
-pip3 install osrf-pycommon rospkg catkin_pkg
+sudo pip3 install osrf-pycommon rospkg catkin_pkg
 
 sudo sh -c "echo \"151.101.84.133 raw.githubusercontent.com\" >> /etc/hosts"
 sudo rosdep init
