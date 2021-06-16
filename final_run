@@ -2,7 +2,7 @@ sudo visudo
 # edit
 Defaults	!env_reset
 # add
-Defaults	env_keep+="http_proxy https_proxy"
+Defaults  env_keep+="http_proxy https_proxy"
 # 操作
 ^O 保存为 DOS 格式
 ^X 退出

@@ -1,3 +1,9 @@
+# ====Default====
+[options]
+statusline_separator = "nil"
+statusline_iseparator = "nil"
+# ====Default====
+ 
 # ====C++====
 [options]
 # options for layers checkers
@@ -48,4 +54,9 @@ name = "format"
 [[layers]]
 name = "chinese"
 # ====C++====
+
+# ====Python====
+[[layers]]
+name = "lang#python"
+# ====Python====
 
