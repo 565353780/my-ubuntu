@@ -27,7 +27,7 @@ sudo ln -s /usr/bin/nvim /usr/bin/vi
 # Install nvim dependency
 sudo gem install environment
 sudo gem install ruby_dev
-npm install -g neovim pyright
+sudo npm install -g neovim pyright
 
 # Install SpaceVim
 curl -sLf https://spacevim.org/install.sh | bash
