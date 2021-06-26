@@ -1,0 +1,9 @@
+Port 22
+PermitRootLogin yes
+PasswordAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
+ClientAliveInterval 30
+ClientAliveCountMax 20
+AllowUsers root
+
