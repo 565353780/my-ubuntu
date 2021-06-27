@@ -2,11 +2,7 @@ sudo sh -c "cat my_config_file/my_apt_source_list > /etc/apt/sources.list"
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install git fonts-powerline python2-dev python3-dev build-essential privoxy curl file minicom android-tools-adb -y
-
-sudo sh -c "cat my_config_file/my_privoxy_config > /etc/privoxy/config"
-
-sudo service privoxy restart
+sudo apt install git fonts-powerline python2-dev python3-dev build-essential curl file minicom android-tools-adb -y
 
 sh -c "cat my_config_file/my_bashrc_append >> ~/.bashrc"
 
