@@ -1,4 +1,5 @@
 sudo sh -c "cat my_config_file/my_apt_source_list > /etc/apt/sources.list"
+sudo sh -c "sed -i 's/UBUNTU_VERSION/$(lsb_release -sc)/g' /etc/apt/sources.list"
 
 sudo apt update
 sudo apt upgrade -y
