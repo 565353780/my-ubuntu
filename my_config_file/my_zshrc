@@ -133,6 +133,9 @@ alias umap="setxkbmap"
 # git
 alias gc='git clone'
 
+# vi-mode
+set -o vi
+
 # FilterSocket <must at the end>
 eval "$RUN_AFTER_BASHRC"
 
