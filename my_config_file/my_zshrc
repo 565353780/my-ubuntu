@@ -137,7 +137,7 @@ alias gc='git clone'
 set -o vi
 
 # tmux
-alias tmuxls = 'tmux ls'
+alias tmuxls='tmux ls'
 alias tmuxc='tmux new -s'
 alias tmuxa='tmux a -t'
 
