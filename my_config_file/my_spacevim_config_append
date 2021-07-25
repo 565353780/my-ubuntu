@@ -2,6 +2,7 @@
 [options]
 statusline_separator = "nil"
 statusline_iseparator = "nil"
+statusline_unicode_symbols = false
 # ====Default====
 
 # ====Denite====
