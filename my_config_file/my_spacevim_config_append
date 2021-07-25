@@ -3,6 +3,11 @@
 statusline_separator = "nil"
 statusline_iseparator = "nil"
 # ====Default====
+
+# ====Denite====
+[[layers]]
+name = 'denite'
+# ====Denite====
  
 # ====C++====
 [options]
