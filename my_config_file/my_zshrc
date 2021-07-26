@@ -137,9 +137,9 @@ alias gc='git clone'
 set -o vi
 
 # tmux
-alias tmuxls='tmux ls'
-alias tmuxc='tmux new -s'
-alias tmuxa='tmux a -t'
+alias tls='tmux ls'
+alias tn='tmux new -s'
+alias ta='tmux a -t'
 
 # FilterSocket <must at the end>
 eval "$RUN_AFTER_BASHRC"
