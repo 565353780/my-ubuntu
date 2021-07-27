@@ -93,7 +93,7 @@ export CPLUS_INCLUDE_PATH="/opt/ros/noetic/include":$CPLUS_INCLUDE_PATH
 export ROS_VERSION=noetic
 
 # co_scan
-alias ct1="source /home/chli/ct_coscan/devel/setup.zsh"
+alias ct1="source /home/chli/coscan_ws/devel/setup.zsh"
 
 # TensorRT
 export TRT_SOURCE=`pwd`
