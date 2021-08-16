@@ -53,7 +53,11 @@ export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 export CUDA_HOME=/usr/local/cuda
 cuda(){
-  sudo rm /usr/local/cuda && sudo ln -s /usr/local/cuda-$1 /usr/local/cuda
+  if [ $1 = "list" ]; then
+    ls /usr/local | grep 'cuda-'
+  else
+    sudo rm /usr/local/cuda && sudo ln -s /usr/local/cuda-$1 /usr/local/cuda
+  fi
 }
 # export CUDA_VERSION=11.4
 # export PATH=$PATH:/usr/local/cuda-$CUDA_VERSION/bin
