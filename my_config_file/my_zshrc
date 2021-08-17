@@ -93,7 +93,7 @@ alias up='unset http_proxy&&unset https_proxy'
 
 # ros (Ubuntu 16.04: kinetic, Ubuntu 18.04: melodic, Ubuntu 20.04 noetic)
 source /opt/ros/noetic/setup.zsh
-alias ct="source /home/chli/catkin_ws/devel/setup.zsh"
+alias svpp="source /home/chli/vpp_ws/devel/setup.zsh"
 export CATKIN_WS=/home/chli/catkin_ws
 export C_INCLUDE_PATH="/opt/ros/noetic/include":$C_INCLUDE_PATH
 export CPLUS_INCLUDE_PATH="/opt/ros/noetic/include":$CPLUS_INCLUDE_PATH
@@ -102,7 +102,7 @@ export CPLUS_INCLUDE_PATH="/opt/ros/noetic/include":$CPLUS_INCLUDE_PATH
 export ROS_VERSION=noetic
 
 # co_scan
-alias ct1="source /home/chli/coscan_ws/devel/setup.zsh"
+alias sco="source /home/chli/coscan_ws/devel/setup.zsh"
 
 # TensorRT
 export TRT_SOURCE=`pwd`
