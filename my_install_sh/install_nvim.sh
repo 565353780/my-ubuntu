@@ -17,7 +17,6 @@ rm get-pip.py
 sudo python3 -m pip install --upgrde pip
 
 # Install neovim-for-python
-sudo pip2 install -U pynvim neovim jedi-language-server
 sudo pip3 install -U pynvim neovim jedi-language-server
 
 # Replace vi with neovim

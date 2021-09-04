@@ -3,7 +3,7 @@ sudo sh -c "sed -i 's/UBUNTU_VERSION/$(lsb_release -sc)/g' /etc/apt/sources.list
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install git fonts-powerline python2-dev python3-dev build-essential curl file minicom android-tools-adb -y
+sudo apt install git fonts-powerline python2-dev python3-dev build-essential curl file minicom android-tools-adb tmux -y
 
 sh -c "cat my_config_file/my_bashrc_append >> ~/.bashrc"
 
