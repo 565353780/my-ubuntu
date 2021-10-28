@@ -14,7 +14,7 @@ rm get-pip.py
 wget https://bootstrap.pypa.io/get-pip.py get-pip.py
 sudo python3 get-pip.py
 rm get-pip.py
-sudo python3 -m pip install --upgrde pip
+sudo python3 -m pip install --upgrade pip
 
 # Install neovim-for-python
 sudo pip3 install -U pynvim neovim jedi-language-server
