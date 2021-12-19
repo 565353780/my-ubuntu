@@ -7,6 +7,9 @@ Defaults  env_keep+="http_proxy https_proxy"
 ^O 保存为 DOS 格式
 ^X 退出
 
+vi
+:CocInstall coc-pyright
+
 # For WSL openssh
 # 添加虚拟局域网及固定ip
 # run this 4 lines
