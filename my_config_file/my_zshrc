@@ -170,6 +170,9 @@ export LC_MEASUREMENT=zh_CN.UTF-8
 export LC_IDENTIFICATION=zh_CN.UTF-8
 export LC_ALL=
 
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # FilterSocket <must at the end>
 eval "$RUN_AFTER_BASHRC"
 
