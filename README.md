@@ -1,27 +1,35 @@
-# my__ubuntu
+# My Ubuntu
 
-## This is a script to re-create my working environment.
+This is a script to re-create my working environment.
 
-## You can read my script and use whichever is useful to you.
+You can read my script and use whichever is useful to you.
 
-## Install XRay first
-Look at my blog for details
+## Install XRay
+
+Looking for more details
+
 ```bash
 https://blog.csdn.net/qq_49466306/article/details/118279505?spm=1001.2014.3001.5502
+or
+https://github.com/565353780/xray-all-in-one
 ```
 
-## Run this by default
+## Run
+
 ```bash
-./activate_proxy.sh
+./init_env.sh
 ```
+
 p8123(on Ubuntu) or p1080(on wsl)
+
 ```bash
 ./install.sh
 ```
 
-## Finally run this by yourself
+## Finally run
 ```bash
 final_run
 ```
 
-## Just enjoy it~
+## Enjoy it~
+

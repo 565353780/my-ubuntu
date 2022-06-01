@@ -28,3 +28,4 @@ sudo service ssh --full-restart
 netsh interface portproxy show v4tov4
 # 删除端口映射
 netsh interface portproxy delete v4tov4 listenaddress=192.168.0.6 listenport=2222
+
