@@ -46,6 +46,7 @@ export EDITOR=/usr/bin/vi
 # Anaconda
 alias base='conda deactivate'
 alias ca='conda activate'
+alias cel='conda env list'
 base
 
 # GCC
@@ -116,17 +117,9 @@ alias sco="source /home/chli/coscan_ws/devel/setup.zsh"
 export TRT_SOURCE=`pwd`
 export TRT_RELEASE=`pwd`/TensorRT-6.0.1.5
 
-#Homebrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
-
 # powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# autojump
-. /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
 
 # autoupdate-oh-my-zsh-plugin
 export UPDATE_ZSH_DAYS=1
@@ -159,6 +152,23 @@ set -o vi
 alias tls='tmux ls'
 alias tn='tmux new -s'
 alias ta='tmux a -t'
+
+# Chinese
+export LANG=en_US.UTF-8
+export LANGUAGE=
+export LC_CTYPE="en_US.UTF-8"
+export LC_NUMERIC=zh_CN.UTF-8
+export LC_TIME=zh_CN.UTF-8
+export LC_COLLATE="en_US.UTF-8"
+export LC_MONETARY=zh_CN.UTF-8
+export LC_MESSAGES="en_US.UTF-8"
+export LC_PAPER=zh_CN.UTF-8
+export LC_NAME=zh_CN.UTF-8
+export LC_ADDRESS=zh_CN.UTF-8
+export LC_TELEPHONE=zh_CN.UTF-8
+export LC_MEASUREMENT=zh_CN.UTF-8
+export LC_IDENTIFICATION=zh_CN.UTF-8
+export LC_ALL=
 
 # FilterSocket <must at the end>
 eval "$RUN_AFTER_BASHRC"
