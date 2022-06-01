@@ -1,8 +1,11 @@
 [user]
-	name = chLi
-    email = 565353780@qq.com
+  name = chLi
+  email = 565353780@qq.com
 
 [http]
 	proxy = socks5://127.0.0.1:1080
 [https]
 	proxy = socks5://127.0.0.1:1080
+[color]
+	ui = auto
+
