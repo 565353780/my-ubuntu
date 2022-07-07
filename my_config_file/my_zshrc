@@ -176,6 +176,14 @@ export LC_ALL=
 # lazygit
 alias lg='lazygit'
 
+# OpenMPI
+export OPENMPI_HOME=/home/chli/openmpi/openmpi-4.1.4/build
+export PATH="$OPENMPI_HOME/bin:$PATH"
+
+# Go
+export GO_HOME=/home/chli/go
+export PATH="$GO_HOME/bin:$PATH"
+
 # FilterSocket <must at the end>
 eval "$RUN_AFTER_BASHRC"
 
