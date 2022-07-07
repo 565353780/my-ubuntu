@@ -20,7 +20,7 @@ https://github.com/565353780/xray-all-in-one
 ./init_env.sh
 ```
 
-p8123(on Ubuntu) or p1080(on wsl)
+p8123
 
 ```bash
 ./install.sh
